@@ -1,4 +1,4 @@
-export const OWNER = "xAbdoAT";
+export const OWNER = "xDevGuru";
 export const REPO = "VortexPath";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
