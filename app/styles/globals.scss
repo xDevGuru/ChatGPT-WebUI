@@ -26,21 +26,21 @@
   --theme: dark;
 
   /* color */
-  --white: rgb(40, 40, 40);
-  --black: rgb(220, 220, 220);
-  --gray: rgb(18, 18, 18);
-  --primary: rgb(100, 149, 237);
-  --second: rgb(34, 40, 49);
-  --hover-color: #3a3a3a;
+  --white: #1e1e1e;
+  --black: #bbb;
+  --gray: #151515;
+  --primary: #315ef8; // Changed to a softer blue (Cornflower Blue)
+  --second: #26262c; // Darker background for secondary elements
+  --hover-color: #323232; // Slightly lighter hover color
 
-  --bar-color: rgba(255, 255, 255, 0.2);
+  --bar-color: hsla(0,0%,100%,.1); // Increased opacity for better visibility
 
-  --border-in-light: 1px solid rgba(255, 255, 255, 0.15);
+  --border-in-light: 1px solid hsla(0,0%,100%,.192); // Softer border
 
   --theme-color: var(--gray);
 
   div:not(.no-dark) > svg {
-    filter: invert(0.6);
+    filter: invert(0.6); // Slightly more inversion for better contrast
   }
 }
 
