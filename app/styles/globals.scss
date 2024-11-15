@@ -26,23 +26,24 @@
   --theme: dark;
 
   /* color */
-  --white: rgb(30, 30, 30);
-  --black: rgb(187, 187, 187);
-  --gray: rgb(21, 21, 21);
-  --primary: rgb(29, 147, 171);
-  --second: rgb(27 38 42);
-  --hover-color: #323232;
+  --white: rgb(40, 40, 40);
+  --black: rgb(220, 220, 220);
+  --gray: rgb(18, 18, 18);
+  --primary: rgb(100, 149, 237);
+  --second: rgb(34, 40, 49);
+  --hover-color: #3a3a3a;
 
-  --bar-color: rgba(255, 255, 255, 0.1);
+  --bar-color: rgba(255, 255, 255, 0.2);
 
-  --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
+  --border-in-light: 1px solid rgba(255, 255, 255, 0.15);
 
   --theme-color: var(--gray);
 
   div:not(.no-dark) > svg {
-    filter: invert(0.5);
+    filter: invert(0.6);
   }
 }
+
 
 .light {
   @include light;
