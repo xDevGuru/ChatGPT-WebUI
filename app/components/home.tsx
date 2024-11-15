@@ -95,7 +95,7 @@ export function useSwitchTheme() {
     );
 
     if (config.theme === "auto") {
-      metaDescriptionDark?.setAttribute("content", "#151515");
+      metaDescriptionDark?.setAttribute("content", "#000000");
       metaDescriptionLight?.setAttribute("content", "#fafafa");
     } else {
       const themeColor = getCSSVar("--theme-color");
